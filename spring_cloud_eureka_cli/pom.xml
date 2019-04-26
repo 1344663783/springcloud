@@ -10,7 +10,7 @@
         <relativePath>../spring_cloud_dependencies/pom.xml</relativePath>
     </parent>
 
-    <artifactId>spring_cloud_eureka</artifactId>
+    <artifactId>spring_cloud_eureka_cli</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -36,7 +36,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.spring.EurekaApplication</mainClass>
+                    <mainClass>com.spring.EurekaCliApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
