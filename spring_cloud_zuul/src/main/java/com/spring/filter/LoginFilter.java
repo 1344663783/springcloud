@@ -30,6 +30,7 @@ public class LoginFilter extends ZuulFilter{
      * 4. error：发送错误调用
      * @return
      */
+
     @Override
     public String filterType() {
         return "pre";
