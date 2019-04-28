@@ -2,19 +2,19 @@ package com.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
- * @ClassName EurekaApplication
+ * @ClassName WebAdminRibbonApplication
  * @Description TODO
  * @Author zhangxiaoxiong
- * @Date 2019/4/26 16:39
+ * @Date 2019/4/28 11:06
  * @Version 1.0
  **/
 @SpringBootApplication
-@EnableEurekaServer
-public class EurekaApplication {
+@EnableDiscoveryClient
+public class WebAdminRibbonApplication {
     public static void main(String[] args) {
-        SpringApplication.run(EurekaApplication.class,args);
+        SpringApplication.run(WebAdminRibbonApplication.class,args);
     }
 }

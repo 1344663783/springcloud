@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring_cloud_dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_cloud_eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_cloud_eureka_cli/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_cloud_eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_cloud_ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_cloud_feign/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_cloud_zuul/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8.1" project-jdk-type="JavaSDK" />
+</project>
