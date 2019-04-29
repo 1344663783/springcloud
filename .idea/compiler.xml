@@ -7,21 +7,31 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hello-spring-cloud-web-admin-ribbon" />
+        <module name="pring_cloud_admin_server" />
+        <module name="spring-cloud-zipkin" />
+        <module name="spring_cloud_admin_client" />
+        <module name="spring_cloud_admin_server" />
         <module name="spring_cloud_eureka_cli" />
         <module name="spring_cloud_eureka_server" />
         <module name="spring_cloud_feign" />
         <module name="spring_cloud_ribbon" />
+        <module name="spring_cloud_zipkin" />
         <module name="spring_cloud_zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hello-spring-cloud-web-admin-ribbon" target="1.8" />
+      <module name="pring_cloud_admin_server" target="1.8" />
+      <module name="spring-cloud-zipkin" target="1.8" />
+      <module name="spring_cloud_admin_client" target="1.8" />
+      <module name="spring_cloud_admin_server" target="1.8" />
       <module name="spring_cloud_dependencies" target="1.8" />
       <module name="spring_cloud_eureka" target="1.8" />
       <module name="spring_cloud_eureka_cli" target="1.8" />
       <module name="spring_cloud_eureka_server" target="1.8" />
       <module name="spring_cloud_feign" target="1.8" />
       <module name="spring_cloud_ribbon" target="1.8" />
+      <module name="spring_cloud_zipkin" target="1.8" />
       <module name="spring_cloud_zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
